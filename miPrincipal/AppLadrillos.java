@@ -3,15 +3,22 @@ public class AppLadrillos {
     public static void menu(){
         
        System.out.println("Iterativa:");
-        dibujarPared_Iterativa(10);
+        dibujarPared_Iterativaco(10);
         System.out.println("Recursiva: ");
         dibujarPared_Recursiva(10);
-
+        System.out.println("Factorial: ");
+       
     }
-    public static void dibujarPared_Iterativa(int n){
+    /*public static void dibujarPared_Iterativa(int n){
         for(int i=1;i<n;i++){
             System.out.println("--------------");
-        }
+        }*/
+
+
+        public static void dibujarPared_Iterativaco(int n){
+            for(int i=1;i>0;i--){
+                System.out.println("--------------");
+            }
     }
     public static void dibujarPared_Recursiva(int n){
         if(n>0)
@@ -20,5 +27,6 @@ public class AppLadrillos {
         System.out.println("--------------------");
     }
 
+   
     
 };

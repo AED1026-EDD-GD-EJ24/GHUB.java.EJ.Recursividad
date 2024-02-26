@@ -12,6 +12,7 @@ public class Principal {
             System.out.println("RECURSIVIDAD");
             System.out.println("*************************");
             System.out.println("1) LADRILLOS");
+            System.out.println("2) FACTORIAL");
             
             System.out.println("            ");
             System.out.println("0) SALIR");
@@ -23,6 +24,8 @@ public class Principal {
                AppLadrillos.menu();
                break;
             case 2:
+            AppFactorial.menu();
+               break;
               
             case 3:
                
