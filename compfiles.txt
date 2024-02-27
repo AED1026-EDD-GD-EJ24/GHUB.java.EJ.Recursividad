@@ -1,3 +1,6 @@
 ./miPrincipal/Principal.java
+./miPrincipal/NumerosNaturales.java
 ./miPrincipal/AppLadrillos.java
+./miPrincipal/AppFactorial.java
+./miPrincipal/AppNumerosNaturales.java
 ./miTest/AppTest.java

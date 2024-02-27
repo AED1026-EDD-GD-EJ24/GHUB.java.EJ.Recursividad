@@ -13,7 +13,16 @@ public class Principal {
             System.out.println("*************************");
             System.out.println("1) LADRILLOS");
             System.out.println("2) FACTORIAL");
-            
+            System.out.println("3) NUMEROS NATURALES");
+            System.out.println("4) SUMA DE DIGITOS");
+            System.out.println("5) RECURSIVIDAD INDIRECTA");
+            System.out.println("6) MAXIMO COMUN DIVISOR");
+            System.out.println("7) BUSQUEDA BINARIA");
+            System.out.println("8) ORDENAMIENTO POR SELECCION");
+            System.out.println("9) TORRES DE HANOI");
+            System.out.println("10) SERIE DE FIBONACCI");
+            System.out.println("11) PERFOMANCE DERIES DE FIBONACCI");
+            System.out.println("12) ORDENAMIENTO POR MEZCLA");
             System.out.println("            ");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
@@ -28,6 +37,8 @@ public class Principal {
                break;
               
             case 3:
+               AppNumerosNaturales.menu();
+               break;
                
             case 4:
                
