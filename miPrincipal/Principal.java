@@ -45,6 +45,7 @@ public class Principal {
             case 5:
                
             case 6:
+            AppMaximoDivisor.menu();
              
             case 7:
                
