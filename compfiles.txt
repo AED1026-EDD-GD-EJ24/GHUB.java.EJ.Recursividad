@@ -1,6 +1,10 @@
+./miPrincipal/AppAlfabeto.java
 ./miPrincipal/Principal.java
-./miPrincipal/NumerosNaturales.java
 ./miPrincipal/AppLadrillos.java
+./miPrincipal/AppSumaDigitos.java
 ./miPrincipal/AppFactorial.java
+./miPrincipal/AppMaximoDivisor.java
 ./miPrincipal/AppNumerosNaturales.java
+./miPrincipal/AppTorresHanoi.java
+./miPrincipal/AppFibonacci.java
 ./miTest/AppTest.java

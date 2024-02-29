@@ -52,6 +52,8 @@ public class Principal {
             case 8:
                
             case 9:
+            AppTorresHanoi.menu();
+               break;
                
             case 10:
                
