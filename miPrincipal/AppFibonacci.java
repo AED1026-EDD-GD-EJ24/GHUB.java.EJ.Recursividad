@@ -1,8 +1,10 @@
 package miPrincipal;
 
+import java.util.Hashtable;
 import java.util.Scanner;
 
 public class AppFibonacci{
+    int contador;
 public static void menu(){
 Scanner sc= new Scanner(System.in);
 int n=sc.nextInt();
@@ -27,4 +29,21 @@ public static double fibonacciRec(int n){
     else
         return fibonacciRec(n-1)+fibonacciRec(n-2);
         
-}}
+}
+static long getContador(){
+    return contador;
+}
+
+static double fibonacciRecOptimizado(int x, Hashtable<Integer,Double>t){
+    Double d=t.get(x);
+    if(d!=null)
+    {
+        d=fibonacciRecOptimizado(x-1,t)+fibonacciRecOptimizado(x-2,t);
+        t.put(x,d);
+    }   
+    
+    return d;
+}
+
+}
+
